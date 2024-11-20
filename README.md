@@ -2,9 +2,13 @@
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Guaishou74851.PCNet)
 
-[Bin Chen](https://scholar.google.com/citations?hl=en&user=aZDNm98AAAAJ) and [Jian Zhang](https://jianzhang.tech/)
+[Bin Chen](https://scholar.google.com/citations?hl=en&user=aZDNm98AAAAJ) and [Jian Zhang](https://jianzhang.tech/)†
 
 *School of Electronic and Computer Engineering, Peking University, Shenzhen, China.*
+
+† Corresponding author
+
+Accepted for publication in [IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) (IJCV) 2024.
 
 ## Abstract
 
