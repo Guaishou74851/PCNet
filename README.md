@@ -1,4 +1,4 @@
-# Practical Compact Deep Compressed Sensing [PyTorch]
+# (TPAMI 2024) Practical Compact Deep Compressed Sensing [PyTorch]
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Guaishou74851.PCNet)
 
@@ -9,6 +9,8 @@
 ## Abstract
 
 Recent years have witnessed the success of deep networks in compressed sensing (CS), which allows for a significant reduction in sampling cost and has gained growing attention since its inception. In this paper, we propose a new practical and compact network dubbed PCNet for general image CS. Specifically, in PCNet, a novel collaborative sampling operator is designed, which consists of a deep conditional filtering step and a dual-branch fast sampling step. The former learns an implicit representation of a linear transformation matrix into a few convolutions and first performs adaptive local filtering on the input image, while the latter then uses a discrete cosine transform and a scrambled block-diagonal Gaussian matrix to generate under-sampled measurements. Our PCNet is equipped with an enhanced proximal gradient descent algorithm-unrolled network for reconstruction. It offers flexibility, interpretability, and strong recovery performance for arbitrary sampling rates once trained. Additionally, we provide a deployment-oriented extraction scheme for single-pixel CS imaging systems, which allows for the convenient conversion of any linear sampling operator to its matrix form to be loaded onto hardware like digital micro-mirror devices. Extensive experiments on natural image CS, quantized CS, and self-supervised CS demonstrate the superior reconstruction accuracy and generalization ability of PCNet compared to existing state-of-the-art methods, particularly for high-resolution images. Code is available at https://github.com/Guaishou74851/PCNet.
+
+## Overview
 
 ![arch](figs/arch.png)
 
@@ -42,3 +44,22 @@ python train.py
 ```
 
 The log and model files will be in `./log` and `./model`, respectively.
+
+## Results
+
+![comp1](figs/comp1.png)
+
+![comp2](figs/comp2.png)
+
+## Citation
+
+If you find the code helpful in your research or work, please cite the following paper:
+
+```
+@article{chen2024practical,
+  title={Practical Compact Deep Compressed Sensing},
+  author={Chen, Bin and Zhang, Jian},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2024},
+}
+```
