@@ -1,6 +1,6 @@
 # (TPAMI 2024) Practical Compact Deep Compressed Sensing [PyTorch]
 
-[![icon](https://img.shields.io/badge/ArXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2411.13081) ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Guaishou74851.PCNet)
+[![IEEE-Xplore](https://img.shields.io/badge/IEEE_Xplore-Paper-<COLOR>.svg)](https://ieeexplore.ieee.org/document/10763443) [![icon](https://img.shields.io/badge/ArXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2411.13081) ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Guaishou74851.PCNet)
 
 [Bin Chen](https://scholar.google.com/citations?hl=en&user=aZDNm98AAAAJ) and [Jian Zhang](https://jianzhang.tech/)†
 
