@@ -39,6 +39,8 @@ The test sets are in `./data`.
 
 The recovered results will be in `./test_out`.
 
+The test sets CBSD68, Urban100, and DIV2K are available at https://github.com/Guaishou74851/SCNet/tree/main/data.
+
 ## Train
 
 Download the dataset of [Waterloo Exploration Database](https://kedema.org/project/exploration/index.html) and put the `pristine_images` directory (containing 4744 `.bmp` image files) into `./data`, then run the following command:
